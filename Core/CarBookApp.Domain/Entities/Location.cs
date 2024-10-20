@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarBookApp.Domain.Entities
 {
-    internal class Location
+    public class Location
     {
         public int LocationId { get; set; }
         public string Name { get; set; }
