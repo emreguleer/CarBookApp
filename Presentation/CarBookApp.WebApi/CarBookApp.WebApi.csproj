@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\CarBookApp.Application\CarBookApp.Application.csproj" />
     <ProjectReference Include="..\..\Infrastructure\CarBookApp.Persistence\CarBookApp.Persistence.csproj" />
   </ItemGroup>
 
