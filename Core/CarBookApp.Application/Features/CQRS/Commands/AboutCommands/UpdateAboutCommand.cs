@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarBookApp.Application.Features.CQRS.Results.AboutResults
+namespace CarBookApp.Application.Features.CQRS.Commands.AboutCommands
 {
-    public class GetAboutByIdQuery
+    public class UpdateAboutCommand
     {
         public int AboutId { get; set; }
         public string Title { get; set; }

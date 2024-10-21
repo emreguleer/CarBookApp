@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\CQRS\Commands\" />
+    <ProjectReference Include="..\CarBookApp.Domain\CarBookApp.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CarBookApp.Domain\CarBookApp.Domain.csproj" />
+    <Folder Include="Features\CQRS\Results\BannerResults\" />
   </ItemGroup>
 
 </Project>
