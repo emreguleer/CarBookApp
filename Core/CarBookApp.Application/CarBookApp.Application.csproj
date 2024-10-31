@@ -10,11 +10,4 @@
     <ProjectReference Include="..\CarBookApp.Domain\CarBookApp.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\CQRS\Commands\BrandCommands\" />
-    <Folder Include="Features\CQRS\Handlers\BrandHandlers\" />
-    <Folder Include="Features\CQRS\Queries\BrandQueries\" />
-    <Folder Include="Features\CQRS\Results\BrandResults\" />
-  </ItemGroup>
-
 </Project>
